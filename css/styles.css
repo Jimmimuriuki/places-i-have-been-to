@@ -1,0 +1,20 @@
+#show-destination {
+    display: none;
+  }
+
+  .destination {
+    cursor: pointer;
+    color: #0088cc;
+  }
+
+  .destination:hover {
+    text-decoration: underline;
+  }
+  .hp{
+    color: maroon;
+    font-style: oblique;
+    font-size: 60px;
+  }
+  body{
+    background-color: #ECF6F6;
+  }

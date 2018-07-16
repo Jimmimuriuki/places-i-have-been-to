@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
+      <script src="js/jquery-3.3.1.js"></script>
+      <script src="js/scripts.js"></script>
+      <title>Destinations</title>
+    </head>
+    <body>
+      <div class="container">
+        <h1 class="hp">Places i have been to!!!</h1>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Add a destination:</h2>
+            <form id="place">
+              <div class="form-group">
+                <label for="new-destination">Destination</label>
+                <input type="text" class="form-control" id="new-destination-name">
+              </div>
+              <div class="form-group">
+                <label for="new-location">Location/Country</label>
+                <input type="text" class="form-control" id="new-location-name">
+              </div>
+              <div class="form-group">
+                <label for="new-landmark">Landmarks and attraction sites</label>
+                <input type="text" class="form-control" id="new-landmark-name">
+              </div>
+              <div class="form-group">
+                <label for="new-time">Time/Year visited</label>
+                <input type="text" class="form-control" id="new-time-name">
+              </div>
+              <div class="form-group">
+                <label for="new-notes">Notes and comments</label>
+                <input type="text" class="form-control" id="new-notes-name">
+              </div>
+
+
+
+
+              <button type="submit" class="btn btn-danger">Add !</button>
+            </form>
+
+            <h2><em><strong>Name of destination</strong></em>:</h2>
+            <ul id="destname">
+
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <div id="show-destination">
+              <h2></h2>
+
+              <p>Destination name: <span class="destination-name"></span></p>
+              <p>Location name: <span class="location-name"></span></p>
+              <p>Landmark name: <span class="landmark-name"></span></p>
+              <p>Time name: <span class="time-name"></span></p>
+              <p>Notes name: <span class="notes-name"></span></p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </body>
+  </html>
